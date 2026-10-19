@@ -1,0 +1,6 @@
+# Arvona code owners.
+# Every pull request requires review from a maintainer before merge.
+
+*       @izynu @xhraddha
+/.github/    @izynu
+/src/data/   @izynu @xhraddha

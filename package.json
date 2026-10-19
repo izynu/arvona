@@ -1,0 +1,65 @@
+{
+  "name": "arvona",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Arvona is a hand-checked index of the free and open web: a verified directory of legally free software, media, and learning resources. Maintained by Zynu and Shraddha.",
+  "author": "Zynu <https://github.com/izynu>",
+  "contributors": [
+    {
+      "name": "Shraddha",
+      "url": "https://github.com/xhraddha"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://izynu.github.io/arvona",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izynu/arvona.git"
+  },
+  "bugs": {
+    "url": "https://github.com/izynu/arvona/issues"
+  },
+  "keywords": [
+    "resource-directory",
+    "open-source",
+    "free-software",
+    "curated-links"
+  ],
+  "scripts": {
+    "dev": "next dev -p 3000 2>&1 | tee dev.log",
+    "build": "next build",
+    "start": "npx serve out",
+    "lint": "eslint .",
+    "validate": "tsx scripts/validate-resources.ts",
+    "catalog": "tsx scripts/export-catalog.ts"
+  },
+  "dependencies": {
+    "@radix-ui/react-alert-dialog": "^1.1.14",
+    "@radix-ui/react-dialog": "^1.1.14",
+    "@radix-ui/react-label": "^2.1.7",
+    "@radix-ui/react-select": "^2.2.5",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-switch": "^1.2.5",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.525.0",
+    "next": "^16.1.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.3.1",
+    "zod": "^4.0.2",
+    "zustand": "^5.0.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "bun-types": "^1.3.4",
+    "eslint": "^9",
+    "eslint-config-next": "^16.1.1",
+    "tailwindcss": "^4",
+    "tsx": "^4.19.2",
+    "tw-animate-css": "^1.3.5",
+    "typescript": "^5"
+  }
+}
