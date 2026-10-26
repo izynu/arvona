@@ -732,4 +732,22 @@ export const resourcesTools: Resource[] = [
     verifiedAt: V,
     status: "active",
   },
+  {
+    id: "agent-qa",
+    name: "agent-qa",
+    url: "https://vostride.com",
+    description:
+      "AI testing agent for web, Android, and iOS apps, with persistent memory and validated self-improvement. Coding agents can run tests and inspect results through its CLI, MCP server, and skills.",
+    category: "ai-dev-tools",
+    subcategory: "Coding Assistants",
+    tags: ["ai", "testing", "qa", "agents", "mcp", "cli"],
+    platforms: ["CLI", "Self-hosted"],
+    pricing: "free",
+    license: "FSL-1.1-ALv2",
+    sourceUrl: "https://github.com/vostride/agent-qa",
+    verifiedAt: "2026-10-26",
+    status: "active",
+    notes:
+      "The local package is free. Requires Node.js 24+ and model access; provider accounts and usage costs may apply. Mobile testing also requires the corresponding device or simulator setup.",
+  },
 ];
