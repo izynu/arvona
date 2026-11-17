@@ -1223,6 +1223,28 @@
       "status": "active"
     },
     {
+      "id": "studyarena",
+      "name": "StudyArena",
+      "url": "https://studyarena.com",
+      "description": "Compare three AI explanations for a study question before seeing the model names, vote for an answer, then reveal the models.",
+      "category": "education",
+      "subcategory": "Memory & Practice",
+      "tags": [
+        "study",
+        "ai",
+        "explanations",
+        "model-comparison"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "pricing": "freemium",
+      "openSource": false,
+      "verifiedAt": "2026-11-18",
+      "status": "active",
+      "notes": "Free signup required. The $0 plan includes three-model comparisons, voting, reveals and saved history. Choosing models or comparing six answers requires Supporter. Availability can vary by country and platform; verify AI explanations."
+    },
+    {
       "id": "the-odin-project",
       "name": "The Odin Project",
       "url": "https://www.theodinproject.com",
@@ -4263,12 +4285,12 @@
     }
   ],
   "stats": {
-    "total": 174,
+    "total": 175,
     "byCategory": {
       "ai-dev-tools": 11,
       "privacy-security": 12,
       "open-source": 10,
-      "education": 11,
+      "education": 12,
       "books-literature": 11,
       "music-audio": 13,
       "movies-video": 13,
@@ -4282,6 +4304,6 @@
     },
     "openSource": 87,
     "featured": 19,
-    "lastVerified": "2026-10-19"
+    "lastVerified": "2026-11-18"
   }
 }
