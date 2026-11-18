@@ -10,6 +10,23 @@ const V = "2026-10-19";
  * All entries manually verified on 2026-10-19.
  */
 export const resourcesTools: Resource[] = [
+  {
+    id: "bestllmfor",
+    name: "BestLLMFor",
+    url: "https://bestllmfor.com/",
+    description:
+      "Free configurator and guides for choosing local open-weight language models from your hardware, with indicative memory and speed estimates.",
+    category: "ai-dev-tools",
+    subcategory: "Local AI",
+    tags: ["ai", "llm", "local", "model-selection", "hardware", "vram"],
+    platforms: ["Web"],
+    pricing: "freemium",
+    openSource: false,
+    verifiedAt: "2026-11-18",
+    status: "active",
+    notes:
+      "We operate this site. The free configurator and guides provide indicative estimates only; optional paid kits and affiliate links may be present.",
+  },
   // ---------------------------------------------------------------- AI & Dev
   {
     id: "ollama",
