@@ -732,4 +732,22 @@ export const resourcesTools: Resource[] = [
     verifiedAt: V,
     status: "active",
   },
+  {
+    id: "open-agent-api",
+    name: "Open Agent API",
+    url: "https://openagentapi.pages.dev/",
+    description:
+      "A self-hosted gateway that lets existing applications and scripts call configured coding agents through an OpenAI-compatible API. Includes an offline example.",
+    category: "ai-dev-tools",
+    subcategory: "Coding Assistants",
+    tags: ["agents", "api", "coding", "typescript", "self-hosted"],
+    platforms: ["Self-hosted", "CLI"],
+    pricing: "free",
+    license: "Apache-2.0",
+    sourceUrl: "https://github.com/jiangxingfan1-coder/Open-Agent-API",
+    openSource: true,
+    verifiedAt: "2026-11-20",
+    status: "active",
+    notes: "The offline example needs no model account. Real agents may require their own accounts or API usage allowance.",
+  },
 ];
