@@ -732,4 +732,22 @@ export const resourcesTools: Resource[] = [
     verifiedAt: V,
     status: "active",
   },
+  {
+    id: "bittool-signer-ios",
+    name: "BitTool Signer",
+    url: "https://bittool.com/signer/",
+    description:
+      "Free iOS app that turns a spare iPhone into an offline signing device. It shows transaction details for review and returns signatures by QR code.",
+    category: "privacy-security",
+    subcategory: "Passwords & Keys",
+    tags: ["offline signing", "qr codes", "self-custody", "transaction review"],
+    platforms: ["iOS"],
+    pricing: "free",
+    license: "MIT",
+    sourceUrl: "https://github.com/bitbill/bittool-signer-ios",
+    openSource: true,
+    verifiedAt: "2026-11-25",
+    status: "active",
+    notes: "Use a dedicated offline phone. The app has not had an independent third-party security audit.",
+  },
 ];
