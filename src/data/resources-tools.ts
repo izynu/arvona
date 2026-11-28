@@ -732,4 +732,22 @@ export const resourcesTools: Resource[] = [
     verifiedAt: V,
     status: "active",
   },
+  {
+    id: "orkas",
+    name: "Orkas",
+    url: "https://orkas.ai/",
+    description:
+      "Plan project tasks and review code changes from a local-first desktop workspace that coordinates the coding assistants you configure.",
+    category: "ai-dev-tools",
+    subcategory: "Coding Assistants",
+    tags: ["ai", "coding-assistants", "project-files", "local-first", "desktop"],
+    platforms: ["Windows", "macOS"],
+    pricing: "freemium",
+    license: "MIT",
+    sourceUrl: "https://github.com/Orkas-AI/Orkas",
+    openSource: true,
+    verifiedAt: "2026-11-28",
+    status: "active",
+    notes: "The basic app requires free sign-in. AI features need model access, and provider charges and data-handling terms can apply.",
+  },
 ];
